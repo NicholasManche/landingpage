@@ -1,0 +1,24 @@
+.top-bit {
+    display: flex;
+    justify-content: space-between;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #1f2937;
+}
+
+.opener {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.header h2, h3 {
+    color: white;
+}
