@@ -12,7 +12,7 @@ header {
   justify-content: space-between;
   background-color: #1f2937;
   padding: 32px;
-  gap: 50px;
+  gap: 60px;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -22,7 +22,6 @@ header {
     gap: 24px;
     background-color: #1f2937;
     padding: 5%;
-
 }
 ul {
     list-style-type: none;
@@ -87,6 +86,66 @@ a:hover {
 
 img {
     height: auto;
-    width: 500px;
+    width: 50%;
     border-radius: 15px;
+}
+
+.info img {
+    width: 50%
+    height: auto;
+}
+
+.info {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    gap: 18px;
+}
+main h2 {
+    color: rgb(29, 29, 29);
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 32px;
+}
+.imgs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-style: groove;
+    padding: 16px;
+    min-height: 300px;
+}
+.info {
+    margin: 50px;
+}
+.imgs p {
+    text-align: center;
+    color: rgb(82, 78, 78);
+    font-size: 18px;
+    font-style: italic;
+}
+.quote p, h3 {
+    font-style: italic;
+    color: aliceblue;
+}
+.quote h3 {
+    font-size: 20px;
+    text-align: end;
+}
+.quote {
+    background-color: #8593a895;
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    flex-direction: column;
+    padding: 200px;
+}
+footer {
+    text-align: center;
+    background-color: #1f2937;
+    padding: 25px;
 }
