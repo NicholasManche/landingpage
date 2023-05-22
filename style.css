@@ -51,7 +51,7 @@ p {
 }
 
 button:hover {
-    background-color: rgb(50, 118, 181);
+    background-color: rgb(98, 174, 241);
     color: white;
 }
 button {
@@ -92,7 +92,6 @@ img {
 
 .info img {
     width: 50%
-    height: auto;
 }
 
 .info {
@@ -115,7 +114,9 @@ main h2 {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    border-style: groove;
+    border-style: solid;
+    border-color:rgb(50, 138, 232);
+    border-radius: 8px;
     padding: 16px;
     min-height: 300px;
 }
@@ -140,7 +141,6 @@ main h2 {
     background-color: #8593a895;
     display: flex;
     justify-content: center;
-    align-items: space-around;
     flex-direction: column;
     padding: 200px;
 }
@@ -148,4 +148,29 @@ footer {
     text-align: center;
     background-color: #1f2937;
     padding: 25px;
+}
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    align-items: center;
+    background-color: rgb(50, 138, 232);
+    margin: 150px;
+    border-radius: 8px;
+    padding: 80px;
+}
+.call-to-action button {
+    align-self: center;
+    border: white;
+    border-style: solid;
+}
+.callcont h4 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: start;
 }
