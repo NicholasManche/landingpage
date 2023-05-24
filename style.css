@@ -120,6 +120,14 @@ main h2 {
     padding: 16px;
     min-height: 300px;
 }
+.imgs:hover {
+    border-color:rgb(64, 193, 244);
+    transition: 0.3s;
+}
+.imgs p:hover {
+    font-size: 20px;
+    transition: 0.4s;
+}
 .info {
     margin: 50px;
 }
